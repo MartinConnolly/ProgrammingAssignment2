@@ -4,10 +4,10 @@
 
 ## This function (makeCacheMatrix) takes a matrix and first checks that this is
 ## a square matrix it then creates the following 4 functions
-## 1. sets the matrix
-## 2. gets the matrix
-## 3. sets the inverse of the matrix
-## 4. gets the inverse of the matrix
+## 1. to set the matrix
+## 2. to get the matrix
+## 3. to set the inverse of the matrix
+## 4. to get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         if(dim(x)[1] != dim(x)[2]) {      #check if this isn't a square matrix
